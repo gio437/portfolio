@@ -16,20 +16,97 @@ body {
     width: 2rem;
 }
 
-h1 {
-    margin-bottom: 3rem;
+.sidebar {
+    top: 20px;
+    position: sticky;
+    margin-left: 50rem;
+    margin-top: 136px;
+    color: #696969;
+    border-width: 3px;
+    border-style: solid;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+}
+
+.github-logo {
+    width: 8rem;
+    background-color: white;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.about-title {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 23rem;
 }
 
 .about {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 12rem;
     width: 31rem;
-    margin-bottom: 5rem;
+}
+
+.projects {
+    margin-top: 20rem;
 }
 
 .cv {
-    width: 10rem;
+    width: 30rem;
+    height: 15rem;
+}
+
+.cv-text {
+    margin-bottom: 30rem;
 }
 
 .battleship {
     width: 30rem;
     height: 15rem;
+}
+
+.ship-text {
+    margin-bottom: 30rem;
+}
+
+.tic {
+    width: 30rem;
+    height: 15rem;
+}
+
+.about-side {
+    margin-left: 10px;
+}
+
+.cv-side {
+    margin-left: 10px;
+}
+
+.battle-side {
+    margin-left: 10px;
+}
+
+.tic-side {
+    margin-left: 10px;
+}
+
+.about-side:hover {
+    color: darkgreen;
+}
+
+.cv-side:hover {
+    color: darkgreen;
+}
+
+.battle-side:hover {
+    color: darkgreen;
+}
+
+.tic-side:hover {
+    color: darkgreen;
 }
