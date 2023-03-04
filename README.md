@@ -4,11 +4,7 @@ This is a portfolio website that showcases my professional work, skills, and exp
 
 Getting Started
 To get started with the portfolio website, you will need to do the following:
-
 Click this link: https://gio437.github.io/portfolio/
-Customize the website with your personal and professional information, including your work, skills, and experiences.
-Upload the website files to a web hosting service of your choice.
-Launch the website and promote it to potential clients, employers, and collaborators.
 
 Features
 This portfolio website includes the following features:
