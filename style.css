@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-    top: 20px;
+    top: 10rem;
     position: sticky;
     margin-left: 50rem;
     margin-top: 136px;
@@ -38,22 +38,25 @@ body {
     margin-bottom: 1rem;
 }
 
-.about-title {
+.nav {
     position: absolute;
-    margin-top: 8rem;
-    margin-left: 23rem;
+    margin-bottom: 150rem;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+     margin-top: 45rem;
 }
 
 .about {
     font-size: 20px;
-    position: absolute;
-    margin-left: 13rem;
-    margin-top: 12rem;
     width: 31rem;
+    margin-bottom: 20rem;
 }
 
 .projects {
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 .cv {
@@ -62,7 +65,9 @@ body {
 }
 
 .cv-text {
-    margin-bottom: 30rem;
+    margin-bottom: 10rem;
+    width: 30rem;
+    font-size: 20px;
 }
 
 .battleship {
@@ -71,12 +76,20 @@ body {
 }
 
 .ship-text {
-    margin-bottom: 30rem;
+    margin-bottom: 10rem;
+    width: 30rem;
+    font-size: 20px;
 }
 
 .tic {
     width: 30rem;
     height: 15rem;
+}
+
+.tic-text {
+    margin-bottom: 5rem;
+    width: 30rem;
+    font-size: 20px;
 }
 
 .about-side {
@@ -95,6 +108,10 @@ body {
     margin-left: 10px;
 }
 
+.contact-side {
+    margin-left: 10px;
+}
+
 .about-side:hover {
     color: darkgreen;
 }
@@ -110,3 +127,8 @@ body {
 .tic-side:hover {
     color: darkgreen;
 }
+
+.contact-side:hover {
+    color: darkgreen;
+}
+
