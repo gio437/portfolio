@@ -1,4 +1,5 @@
 const aboutNav = document.querySelector('.about-side');
+const memoryNav = document.querySelector('.memory-side');
 const cvNav = document.querySelector('.cv-side');
 const battleNav= document.querySelector('.battle-side');
 const ticNav = document.querySelector('.tic-side');
@@ -21,6 +22,13 @@ aboutNav.addEventListener('click', () => {
       });
 });
 
+memoryNav.addEventListener('click', () => {
+  window.scroll({
+      top: 900,
+      behavior: 'smooth'
+    });
+})
+
 cvNav.addEventListener('click', () => {
     // cvNav.style.color = 'white';
     // cvNav.style.backgroundColor = 'darkgreen';
@@ -32,7 +40,7 @@ cvNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 600,
+      top: 1500,
         behavior: 'smooth'
       });
 });
@@ -48,7 +56,7 @@ battleNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 1300,
+        top: 2200,
         behavior: 'smooth'
       });
 });
@@ -64,21 +72,21 @@ ticNav.addEventListener('click', () => {
     // cvNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 2000,
+        top: 2800,
         behavior: 'smooth'
       });
 });
 
 weatherNav.addEventListener('click', () => {
   window.scroll({
-      top: 2500,
+      top: 3300,
       behavior: 'smooth'
     });
 })
 
 contactNav.addEventListener('click', () => {
     window.scroll({
-        top: 2500,
+        top: 4000,
         behavior: 'smooth'
       });
 })
