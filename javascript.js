@@ -1,4 +1,5 @@
 const aboutNav = document.querySelector('.about-side');
+const shopNav = document.querySelector('.shopping-side');
 const memoryNav = document.querySelector('.memory-side');
 const cvNav = document.querySelector('.cv-side');
 const battleNav= document.querySelector('.battle-side');
@@ -22,9 +23,16 @@ aboutNav.addEventListener('click', () => {
       });
 });
 
+shopNav.addEventListener('click', () => {
+  window.scroll({
+    top: 1000,
+    behavior: 'smooth'
+  });
+})
+
 memoryNav.addEventListener('click', () => {
   window.scroll({
-      top: 900,
+      top: 1600,
       behavior: 'smooth'
     });
 })
@@ -40,7 +48,7 @@ cvNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-      top: 1500,
+      top: 2200,
         behavior: 'smooth'
       });
 });
@@ -56,7 +64,7 @@ battleNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 2200,
+        top: 2800,
         behavior: 'smooth'
       });
 });
@@ -72,21 +80,21 @@ ticNav.addEventListener('click', () => {
     // cvNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 2800,
+        top: 3400,
         behavior: 'smooth'
       });
 });
 
 weatherNav.addEventListener('click', () => {
   window.scroll({
-      top: 3300,
+      top: 4000,
       behavior: 'smooth'
     });
 })
 
 contactNav.addEventListener('click', () => {
     window.scroll({
-        top: 4000,
+        top: 4500,
         behavior: 'smooth'
       });
 })
