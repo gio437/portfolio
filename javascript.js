@@ -32,7 +32,7 @@ shopNav.addEventListener('click', () => {
 
 memoryNav.addEventListener('click', () => {
   window.scroll({
-      top: 1600,
+      top: 2000,
       behavior: 'smooth'
     });
 })
@@ -48,7 +48,7 @@ cvNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-      top: 2200,
+      top: 2900,
         behavior: 'smooth'
       });
 });
@@ -64,7 +64,7 @@ battleNav.addEventListener('click', () => {
     // ticNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 2800,
+        top: 3800,
         behavior: 'smooth'
       });
 });
@@ -80,21 +80,21 @@ ticNav.addEventListener('click', () => {
     // cvNav.style.backgroundColor = '#1b1b1b';
 
     window.scroll({
-        top: 3400,
+        top: 4700,
         behavior: 'smooth'
       });
 });
 
 weatherNav.addEventListener('click', () => {
   window.scroll({
-      top: 4000,
+      top: 5600,
       behavior: 'smooth'
     });
 })
 
 contactNav.addEventListener('click', () => {
     window.scroll({
-        top: 4500,
+        top: 7000,
         behavior: 'smooth'
       });
 })
