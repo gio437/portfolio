@@ -12,11 +12,12 @@ body {
 
 .git {
     background-color: white;
-    margin-left: 8px;
-    width: 2rem;
+    margin-left: 1rem;
+    width: 3rem;
+    position: absolute;
 }
 
-.sidebar {
+/* .sidebar {
     top: 10rem;
     position: sticky;
     margin-left: 50rem;
@@ -27,7 +28,7 @@ body {
     border-right: hidden;
     border-top: hidden;
     border-bottom: hidden;
-}
+} */
 
 .github-logo {
     width: 8rem;
@@ -38,9 +39,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.nav {
-    position: absolute;
-    margin-bottom: 370rem;
+.aboutParent {
+    margin-top: 2rem;
     background-color: #4e4e4e;
     height: 30rem;
     border-radius: 30px;
@@ -49,10 +49,16 @@ body {
 
 .contain-cards {
     background-color: #4e4e4e;
-    height: 50rem;
+    height: 46rem;
     border-radius: 30px;
     padding: 1rem;
     margin-bottom: 5rem;
+}
+
+.cardParent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
 }
 
 h2 {
@@ -68,11 +74,10 @@ h2 {
 .about {
     font-size: 20px;
     width: 31rem;
-    margin-bottom: 20rem;
 }
 
 .projects {
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 #pic {
@@ -81,7 +86,6 @@ h2 {
 }
 
 .text {
-    margin-bottom: 10rem;
     width: 30rem;
     font-size: 20px;
 }
@@ -96,9 +100,9 @@ h2 {
     height: 15rem;
 }
 
-#bar-color {
+/* #bar-color {
     margin-left: 10px;
-}
+} */
 
 #bar-color:hover {
     color: darkgreen;
