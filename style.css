@@ -10,6 +10,18 @@ body {
     flex-direction: column;
 }
 
+.project-links {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .git {
     background-color: white;
     margin-left: 1rem;
