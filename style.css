@@ -64,8 +64,9 @@ a {
     background-color: #4e4e4e;
     height: 46rem;
     border-radius: 30px;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-bottom: 5rem;
+    width: 26rem;
 }
 
 .cardParent {
@@ -96,6 +97,7 @@ h2 {
 
 #pic {
     height: 15rem;
+    width: 26rem;
 }
 
 .text {
@@ -109,7 +111,6 @@ h2 {
 }
 
 .weather {
-    width: 30rem;
     height: 15rem;
 }
 
