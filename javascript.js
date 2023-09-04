@@ -1,3 +1,4 @@
+// file not currently in use
 const aboutNav = document.querySelector('.about-side');
 const shopNav = document.querySelector('.shopping-side');
 const memoryNav = document.querySelector('.memory-side');

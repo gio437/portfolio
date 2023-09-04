@@ -121,3 +121,8 @@ h2 {
 #bar-color:hover {
     color: darkgreen;
 }
+
+.latest-project {
+    color: rgb(119, 240, 119);
+    font-size: 1.5rem;
+}
