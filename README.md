@@ -1,5 +1,7 @@
 # portfolio
 
+JavaScript file currently not in use.
+
 This is a portfolio website that showcases my professional work, skills, and experiences. The website is designed to help me promote yourself and my career to potential clients, employers, and collaborators.
 
 Getting Started
