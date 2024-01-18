@@ -75,6 +75,11 @@ a {
     /* width: 100%; */
 }
 
+#projectTitle {
+    color: white;
+    transform: none;
+}
+
 h2 {
     text-align: center;
 }
