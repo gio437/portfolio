@@ -66,6 +66,9 @@ a {
     padding: 0.5rem;
     margin-bottom: 5rem;
     width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .cardParent {
@@ -79,6 +82,7 @@ a {
     color: white;
     transform: none;
 }
+
 
 h2 {
     text-align: center;
